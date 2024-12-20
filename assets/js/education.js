@@ -7,37 +7,37 @@ const moocscards = [
   {
     title: "Qilk Sense",
     cardImage: "assets/images/education-page/Qlik.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "#",
   },
   {
     title: "MongoDB",
     cardImage: "assets/images/education-page/mongodb.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "#",
   },
   {
     title: "Microsoft",
     cardImage: "assets/images/education-page/microsoft.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "#",
   },
   {
     title: "Math Works",
     cardImage: "assets/images/education-page/mathworks.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    moocLink: "#",
   },
   {
     title: "Python for Data Science",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
     title: "Cloud Computing",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
     title: "Big Data Computing",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    moocLink: "#",
   },
   /*
   {
