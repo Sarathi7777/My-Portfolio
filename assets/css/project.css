@@ -379,6 +379,7 @@ ul {
 .menu-content {
   margin-right: 10px;
   margin-top: 1rem;
+  bottom: 25px;
 }
 
 .social-icon svg:hover {
