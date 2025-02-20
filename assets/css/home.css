@@ -756,6 +756,7 @@ a:hover {
   border-top-style: solid;
   border-color: #2c3437;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .about .title {
@@ -818,6 +819,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .about-text {
@@ -831,6 +833,7 @@ a:hover {
 .about-container {
   max-width: calc(100% - 20px);
   margin: 10px !important;
+  flex-wrap: wrap;
 }
 
 .about-text {
@@ -839,11 +842,11 @@ a:hover {
 
 .about_container_cadre {
   width: 100%;
-
 }
 
 .introduction {
   font-size: 12px;
+  flex-wrap: wrap;
 }
 
 .introduction {
@@ -852,6 +855,7 @@ a:hover {
   border-radius: .5rem;
   font-size: 14px;
   font-weight: bold;
+  flex-wrap: wrap
 }
 
 
@@ -866,6 +870,7 @@ a:hover {
   padding: .5rem;
   border-radius: 1.5rem;
   transition: all 0.4s ease;
+  flex-wrap: wrap;
 }
 
 .cadre:hover {
