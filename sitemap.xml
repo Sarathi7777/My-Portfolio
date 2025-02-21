@@ -20,4 +20,8 @@
         <loc>https://medium.com/@sarathi20</loc>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://sarathiportfolio.vercel.app/sitemap.xml</loc>
+        <priority>0.8</priority>
+    </url>
 </urlset>
