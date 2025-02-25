@@ -44,57 +44,57 @@ const techStack = [
   {
     langImage: "assets/images/techstack-page/django-1.png",
     langName: "Django",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langDesc: "<li>Django is a high-level Python web framework that promotes rapid development and clean, pragmatic design.</li>",
   },
   {
     langImage: "assets/images/techstack-page/docker.png",
     langName: "Docker",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langDesc: "<li>Docker is an open-source platform that enables developers to automate the deployment of applications using lightweight, portable containers.</li>",
   },
   {
     langImage:"assets/images/techstack-page/figma.png",
     langName:"Figma",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc:"<li>Figma is a cloud-based design tool used for UI/UX design, prototyping, and collaboration.</li>"
   },  
   {
     langImage: "assets/images/techstack-page/jenkins.png",
     langName: "Jenkins",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langDesc: "<li>Jenkins is an open-source automation server used for continuous integration and continuous delivery (CI/CD).</li>",
   },
   {
     langImage: "assets/images/techstack-page/mongodb.png",
     langName: "MongoDB",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langDesc: "<li>MongoDB is a NoSQL database that stores data in a flexible, JSON-like format called BSON.</li>",
   },
   {
     langImage:"assets/images/techstack-page/tailwind-css-2.png",
     langName:"Tailwind CSS",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc:"<li>Tailwind CSS is a utility-first CSS framework that enables rapid UI development with pre-defined classes.</li>"
   },
   {
     langImage: "assets/images/techstack-page/tableau.png",
     langName: "Tableau",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+    langDesc: "<li>Tableau is a powerful data visualization tool that helps users analyze and present data through interactive dashboards and reports.</li>",
   },
   {
     langImage: "assets/images/techstack-page/numpy.png",
     langName: "NumPy",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langDesc: "<li>NumPy is a core library for numerical computing in Python, providing powerful support for n-dimensional arrays.</li>",
   },
   {
     langImage:"assets/images/techstack-page/pandas.png",
     langName:"Pandas",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc:"<li>Pandas is an open-source Python library providing high-performance, easy-to-use data structures and data analysis tools for data manipulation and analysis</li>"
   },
   {
     langImage: "assets/images/techstack-page/streamlit.png",
     langName: "Streamlit",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langDesc: "<li>Streamlit is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science</li>",
   },
   {
     langImage:"assets/images/techstack-page/apache-spark.png",
     langName:"Apache Spark",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langDesc:"<li>Apache Spark is an open-source unified analytics engine for large-scale data processing with built-in modules for SQL, streaming, machine learning, and graph processing</li>"
   },
 
 ];
