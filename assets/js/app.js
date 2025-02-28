@@ -30,7 +30,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="techstack.html">Tech Stacks</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://medium.com/@sarathi20" target="_blank">Blogs</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://drive.google.com/file/d/1AF8zrGHN3a-4aBt8XD4Vcxcu5SRDsLo2/view?usp=sharing" target="_blank">Resume</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://drive.google.com/file/d/1WJxOrQX8epaO3Po4t8BIDb8558FPHlaz/view?usp=sharing" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
