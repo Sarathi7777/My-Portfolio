@@ -14,6 +14,24 @@ const projects = [
     Githublink: "#",
   },
   {
+    title: "MERN Stack Travel Story Application",
+    cardImage: "assets/images/project-page/F1.jpg",
+    description: "#",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/Sarathi7777/Travel-Story-App.git",
+  },
+  {
+    title: "Retrival and Generative Models",
+    cardImage: "assets/images/project-page/F1.jpg",
+    description: "#",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
+  },
+  {
     title: "Vehicle Routing Optimization",
     cardImage: "assets/images/project-page/VRO.jpg",
     description:
@@ -42,12 +60,21 @@ const projects = [
     Githublink: "https://github.com/Sarathi7777/Nerual_Language_Processing_model.git",
   },
   {
-    title: "Milk Quality Prediction",
+    title: "Milk Quality ML Prediction",
     cardImage: "assets/images/project-page/milk1.jpg",
     description: "#",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "#",
+    Previewlink: "https://milk-quality-predictor.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Milk-Quality-Prediction-ML-Model.git",
+  },
+  {
+    title: "Diabetes Prediction ML Model",
+    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
+    description: "#",
+    tagimg:
+      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+    Previewlink: "https://diabetes-predic.streamlit.app/",
+    Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
   },
   {
     title: "Face Recognition",
@@ -58,20 +85,29 @@ const projects = [
     Githublink: "https://github.com/Sarathi7777/Face-Recognition.git",
   },
   {
+    title: "Formula 1 Analysis Season 2023",
+    cardImage: "assets/images/project-page/F1.jpg",
+    description: "#",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://f1-analysis.streamlit.app/",
+    Githublink: "https://github.com/Sarathi7777/Formula-1-Analysis-Season-2023.git",
+  },
+  {
+    title: "Formula One Teams Analysis-Tableau",
+    cardImage: "assets/images/project-page/F1.jpg",
+    description: "#",
+    tagimg: "#",
+    Previewlink: "#",
+    Githublink: "#",
+  },
+  {
     title: "AI-Mock Interviewer",
     cardImage: "assets/images/project-page/AI_mock.jpg",
     description: "Recipe Ingredient Parser built using JavaScript.",
     tagimg: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/AI-Mock-Interviewer.git",
-  },
-  {
-    title: "Formula One Team Predictions",
-    cardImage: "assets/images/project-page/F1.jpg",
-    description: "#",
-    tagimg: "#",
-    Previewlink: "#",
-    Githublink: "#",
   },
   // {
   //   title: "Layman-Friendly MRI Reports Generator",
@@ -91,24 +127,6 @@ const projects = [
     Githublink: "https://github.com/Sarathi7777/Crowdfunding_Platform.git",
   },
   {
-    title: "Diabetes Prediction ML Model",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "#",
-    tagimg:
-      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
-    Previewlink: "",
-    Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
-  },
-  {
-    title: "MERN Stack Travel Story Application",
-    cardImage: "assets/images/project-page/F1.jpg",
-    description: "#",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "https://github.com/Sarathi7777/Travel-Story-App.git",
-  },
-  {
     title: "College Event Management",
     cardImage: "assets/images/project-page/F1.jpg",
     description: "#",
@@ -116,24 +134,6 @@ const projects = [
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Event_Management.git",
-  },
-  {
-    title: "Retrival and Generative Models",
-    cardImage: "assets/images/project-page/F1.jpg",
-    description: "#",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
-  },
-  {
-    title: "Formula 1 Analysis Season 2023",
-    cardImage: "assets/images/project-page/F1.jpg",
-    description: "#",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "https://github.com/Sarathi7777/Formula-1-Analysis-Season-2023.git",
   },
 ];
 
