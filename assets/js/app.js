@@ -1,4 +1,3 @@
-
 "use strict";
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
@@ -141,16 +140,17 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Let's Stay Connected</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
+                <form name="form1" id="contactForm" target="hidden_iframe">
+                  <input id="name" type="text" name="entry.1914249107" placeholder="Your Name" required/>
+                  <input id="email" type="email" name="entry.1238239200" placeholder="Email Address" required/>                  
+                  <textarea id="textArea" name="entry.29874016" placeholder="Type your Message" required></textarea>
               
                   <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
+                    <button id="lnch" type="submit" value="Send">Send</button>
                     <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
+                <iframe name="hidden_iframe" style="display:none;"></iframe>
               </div>
             </div>
           </div>
@@ -481,4 +481,55 @@ $(function submitAnimation() {
       }, 2200);
     }
   });
+});
+
+// Form submission handling
+$(document).ready(function() {
+    $('#contactForm').on('submit', function(e) {
+        const name = $('#name').val();
+        const email = $('#email').val();
+        const message = $('#textArea').val();
+        const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+
+        // Validate form
+        if (name === "" || (/\d/.test(name))) {
+            e.preventDefault();
+            swal("Error!", "Please enter a valid name!", "error");
+            return;
+        }
+        if (email === "" || !(emailPattern.test(email))) {
+            e.preventDefault();
+            swal("Error!", "Please enter a valid email!", "error");
+            return;
+        }
+        if (message === "") {
+            e.preventDefault();
+            swal("Error!", "Please enter a valid message!", "error");
+            return;
+        }
+
+        // Show loading state
+        $('#lnch').addClass('launching').text("Sending");
+        $('#lnch_btn').addClass('launching');
+        $('#lnch').prop('disabled', true);
+        $('#lnch_btn i').addClass('fa-spin');
+
+        // Set form action
+        $(this).attr('action', 'https://docs.google.com/forms/d/e/1FAIpQLSdJJlRWDGv4b_ZuGKFzFIN3rhUnGURRtwPltJPju54ofMIeBw/formResponse');
+
+        // Reset form and button after submission
+        setTimeout(function() {
+            $('#contactForm')[0].reset();
+            $('#lnch').removeClass('launching launched').text("Send");
+            $('#lnch_btn').removeClass('launching launched');
+            $('#lnch').prop('disabled', false);
+            $('#lnch_btn i').removeClass('fa-spin');
+            swal({
+                title: "Success!",
+                text: "Your message has been sent successfully!",
+                icon: "success",
+                button: "OK"
+            });
+        }, 2000);
+    });
 });
