@@ -26,7 +26,7 @@ const techStack = [
   },
   {
     langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
+    langName: "ReactJS",
     langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
   },
   {
@@ -36,14 +36,34 @@ const techStack = [
   },
   {
     langImage: "assets/images/techstack-page/node.png",
-    langName: "Node",
+    langName: "NodeJS",
     langDesc: "<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>",
+  },
+  {
+    langImage:"assets/images/techstack-page/express-js-1.png",
+    langName:"ExpressJS",
+    langDesc:"<li></li>"
+  },  
+  {
+    langImage:"assets/images/techstack-page/nextjs-1.png",
+    langName:"NextJS",
+    langDesc:"<li></li>"
+  },  
+  {
+    langImage:"assets/images/techstack-page/npm.png",
+    langName:"NPM",
+    langDesc:"<li></li>"
   },
   {
     langImage: "assets/images/techstack-page/mongodb.png",
     langName: "MongoDB",
     langDesc: "<li>MongoDB is a NoSQL database that stores data in a flexible, JSON-like format called BSON.</li>",
   },
+  {
+    langImage:"assets/images/techstack-page/my-sql.png",
+    langName:"MySQL",
+    langDesc:"<li></li>"
+  },  
   {
     langImage: "assets/images/techstack-page/git.png",
     langName: "Git",
@@ -53,6 +73,26 @@ const techStack = [
     langImage: "assets/images/techstack-page/github.png",
     langName: "GitHub",
     langDesc: "<li>GitHub is a web-based platform for version control and collaboration that allows developers to store, manage, track, and control changes to their code</li>",
+  },
+  {
+    langImage:"assets/images/techstack-page/scikit-learn.png",
+    langName:"Scikit-Learn",
+    langDesc:"<li></li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/tensorflow.png",
+    langName:"TensorFlow",
+    langDesc:"<li></li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/keras.png",
+    langName:"Keras",
+    langDesc:"<li></li>"
+  }, 
+  {
+    langImage:"assets/images/techstack-page/pytorch-1.png",
+    langName:"PyTorch",
+    langDesc:"<li></li>"
   },
   {
     langImage: "assets/images/techstack-page/numpy.png",
@@ -99,7 +139,11 @@ const techStack = [
     langName:"Figma",
     langDesc:"<li>Figma is a cloud-based design tool used for UI/UX design, prototyping, and collaboration.</li>"
   },  
-  
+  {
+    langImage:"assets/images/techstack-page/canva.png",
+    langName:"Canva",
+    langDesc:"<li></li>"
+  },  
 ];
 
 const displayTechStacksCards = () => {
