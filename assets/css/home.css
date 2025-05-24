@@ -19,6 +19,7 @@ html[data-theme="light"] {
   --col-icon-codeforces:rgb(19, 145, 184);
   --col-icon-leetcode:rgb(255, 181, 62);
   --shadow-col: rgba(0, 0, 0, 0.3);
+  --col-icon-salesforce:rgb(255, 181, 62);
 
 }
 
@@ -38,6 +39,7 @@ html[data-theme="dark"] {
   --col-icon-codeforces:rgb(19, 145, 184);
   --col-icon-leetcode:rgb(255, 181, 62);
   --col-white: #fff;
+  --col-icon-salesforce:rgb(255, 181, 62);
 }
 /* Particle effect*/
 body{
@@ -173,6 +175,76 @@ html[light-mode="dark"] .socialicon{
   background-color: #41aff3;
   box-shadow: var(--kaggle);
 }
+
+ /*
+---------------------------
+   SALESFORCE MICROANIMATION
+---------------------------
+*/
+
+.salesforce i {
+  margin: auto;
+  font-size: 24px;
+  z-index: 1;
+  transition: var(--trans-props);
+  color: #41aff3;
+}
+
+.socialicon.salesforce{
+  color:var(--col-icon-salesforce);
+}
+
+.socialicon:after {
+  content: "";
+  width: var(--link-size);
+  height: var(--link-size);
+  position: absolute;
+  transform: translate(0, var(--link-size));
+  border-radius: 50%;
+  transition: var(--trans-props);
+  
+}
+
+.socialicon.salesforce:after {
+  background-color: #41aff3;
+  box-shadow: var(--salesforce);
+}
+
+
+/*
+---------------------------
+   LEETCODE MICROANIMATION
+---------------------------
+*/
+
+.leetcode i {
+  margin: auto;
+  font-size: 24px;
+  z-index: 1;
+  transition: var(--trans-props);
+  color: #41aff3;
+}
+
+.socialicon.leetcode{
+  color:var(--col-icon-leetcode);
+}
+
+.socialicon:after {
+  content: "";
+  width: var(--link-size);
+  height: var(--link-size);
+  position: absolute;
+  transform: translate(0, var(--link-size));
+  border-radius: 50%;
+  transition: var(--trans-props);
+  
+}
+
+.socialicon.leetcode:after {
+  background-color: #f7ba15;
+  box-shadow: var(--leetcode);
+}
+
 
 
  /*
