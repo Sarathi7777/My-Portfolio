@@ -10,6 +10,11 @@ const techStack = [
     langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
   },
   {
+    langImage: "assets/images/techstack-page/n8n.png",
+    langName: "N8N",
+    langDesc: "<li>n8n is an open-source workflow automation platform that allows users to connect any app with an API and manipulate its data with little or no code.</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/html.png",
     langName: "HyperText Markup Language",
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
@@ -42,17 +47,17 @@ const techStack = [
   {
     langImage:"assets/images/techstack-page/express-js-1.png",
     langName:"ExpressJS",
-    langDesc:"<li></li>"
+    langDesc:"<li>ExpressJS is a web application framework for Node.js that provides a robust set of features for building web applications and APIs.</li>"
   },  
   {
     langImage:"assets/images/techstack-page/nextjs-1.png",
     langName:"NextJS",
-    langDesc:"<li></li>"
+    langDesc:"<li>NextJS is a React framework for building server-side rendered (SSR) web applications.</li>"
   },  
   {
     langImage:"assets/images/techstack-page/npm.png",
     langName:"NPM",
-    langDesc:"<li></li>"
+    langDesc:"<li>NPM is a package manager for Node.js that allows developers to manage dependencies and install packages.</li>"
   },
   {
     langImage: "assets/images/techstack-page/mongodb.png",
@@ -62,7 +67,7 @@ const techStack = [
   {
     langImage:"assets/images/techstack-page/my-sql.png",
     langName:"MySQL",
-    langDesc:"<li></li>"
+    langDesc:"<li>MySQL is a relational database management system that allows users to store, retrieve, and manage data in a structured manner.</li>"
   },  
   {
     langImage: "assets/images/techstack-page/git.png",
@@ -77,22 +82,22 @@ const techStack = [
   {
     langImage:"assets/images/techstack-page/scikit-learn.png",
     langName:"Scikit-Learn",
-    langDesc:"<li></li>"
+    langDesc:"<li>Scikit-Learn is a Python library for machine learning that provides a range of tools for data analysis and modeling.</li>"
   },
   {
     langImage:"assets/images/techstack-page/tensorflow.png",
     langName:"TensorFlow",
-    langDesc:"<li></li>"
+    langDesc:"<li>TensorFlow is an open-source software library for machine learning and artificial intelligence.</li>"
   },
   {
     langImage:"assets/images/techstack-page/keras.png",
     langName:"Keras",
-    langDesc:"<li></li>"
+    langDesc:"<li>Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow.</li>"
   }, 
   {
     langImage:"assets/images/techstack-page/pytorch-1.png",
     langName:"PyTorch",
-    langDesc:"<li></li>"
+    langDesc:"<li>PyTorch is an open-source software library for machine learning and artificial intelligence.</li>"
   },
   {
     langImage: "assets/images/techstack-page/numpy.png",
@@ -142,7 +147,7 @@ const techStack = [
   {
     langImage:"assets/images/techstack-page/canva.png",
     langName:"Canva",
-    langDesc:"<li></li>"
+    langDesc:"<li>Canva is a cloud-based design tool used for UI/UX design, prototyping, and collaboration.</li>"
   },  
 ];
 

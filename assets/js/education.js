@@ -6,38 +6,43 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Qilk Sense",
-    cardImage: "assets/images/education-page/Qlik.svg",
+    cardImage: "assets/images/education-page/Qlik.png",
     moocLink: "https://www.credly.com/badges/7e8b98f1-d375-494d-98cb-df034de68980/public_url",
-  },
-  {
-    title: "MongoDB",
-    cardImage: "assets/images/education-page/mongodb.png",
-    moocLink: "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/3f69305d-e9bf-4c1b-b88e-7a38d2dd04a9-sarathi-t-717822i152-5adc53a2-3909-4c0c-92f3-c814c5c1a386-certificate.pdf",
   },
   {
     title: "Microsoft",
     cardImage: "assets/images/education-page/microsoft.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://learn.microsoft.com/en-us/users/sarathi20/",
+  },
+  {
+    title: "Salesforce",
+    cardImage: "assets/images/education-page/salesforce.png",
+    moocLink: "https://www.salesforce.com/trailblazer/sarathi20",
+  },
+  {
+    title: "MongoDB",
+    cardImage: "assets/images/education-page/mongodb.png",
+    moocLink: "#",
   },
   {
     title: "Math Works",
     cardImage: "assets/images/education-page/mathworks.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    moocLink: "#",
   },
   {
     title: "Python for Data Science",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
     title: "Cloud Computing",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
     title: "Big Data Computing",
     cardImage: "assets/images/education-page/nptel1.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    moocLink: "#",
   },
   /*
   {
