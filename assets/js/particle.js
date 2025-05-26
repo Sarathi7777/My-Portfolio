@@ -14,7 +14,7 @@ particlesJS("particles-js", {
       value: ["#00A19B", "#FF8000"],
     },
     shape: {
-      type: "circle",
+      type: "star",
       stroke: {
         width: 0,
         color: "#fff",
@@ -50,7 +50,7 @@ particlesJS("particles-js", {
       },
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 150,
       color: "#808080",
       opacity: 0.4,
@@ -58,12 +58,12 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 5,
+      speed: 2,
       direction: "none",
       random: false,
       straight: false,
       out_mode: "out",
-      bounce: false,
+      bounce: true,
       attract: {
         enable: false,
         rotateX: 600,

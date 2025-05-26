@@ -190,9 +190,9 @@ html[light-mode="dark"] .socialicon{
   color: #41aff3;
 }
 
-.socialicon.salesforce{
+/* .socialicon.salesforce{
   color:var(--col-icon-salesforce);
-}
+} */
 
 .socialicon:after {
   content: "";
@@ -202,7 +202,6 @@ html[light-mode="dark"] .socialicon{
   transform: translate(0, var(--link-size));
   border-radius: 50%;
   transition: var(--trans-props);
-  
 }
 
 .socialicon.salesforce:after {
@@ -222,12 +221,12 @@ html[light-mode="dark"] .socialicon{
   font-size: 24px;
   z-index: 1;
   transition: var(--trans-props);
-  color: #41aff3;
+  color: #f7ba15;
 }
 
-.socialicon.leetcode{
+/* .socialicon.leetcode{
   color:var(--col-icon-leetcode);
-}
+} */
 
 .socialicon:after {
   content: "";
