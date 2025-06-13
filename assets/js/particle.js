@@ -14,7 +14,7 @@ particlesJS("particles-js", {
       value: ["#00A19B", "#FF8000"],
     },
     shape: {
-      type: "star",
+      type: "circle",
       stroke: {
         width: 0,
         color: "#fff",
