@@ -9,6 +9,11 @@ document.body.appendChild(script);
 //    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
 //   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
 
+
+// <li class="nav-item">
+// <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
+// </li>
+
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Sarathi </a>
@@ -29,10 +34,11 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="techstack.html">Tech Stacks</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://medium.com/@sarathi20" target="_blank">Blogs</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://drive.google.com/file/d/1WJxOrQX8epaO3Po4t8BIDb8558FPHlaz/view?usp=sharing" target="_blank">Resume</a></li>
-   <li class="nav-item">
-   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
-   </li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://drive.google.com/file/d/1GO_9DKhZ_4DkGIH9SG55wMGhkM9UvBgD/view?usp=sharing" target="_blank">Resume</a></li>
+   
+
+
+
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
      <rect/>
