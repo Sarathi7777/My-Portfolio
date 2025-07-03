@@ -95,7 +95,7 @@
                 </div>
                 <br/>
                 <span style="display: inline;">I'm into <span class="animated-text"
-                    data-words="Data Science, Machine Learning, Data Engineering, AI Development, Web Development"></span>
+                    data-words=" Data Science, Machine Learning, Data Engineering, AI Development, Web Development "></span>
                 </span>
                 <div>
                     <div class="social-icons">
@@ -483,6 +483,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const el = document.querySelector('.animated-text');
+        if (!el) return;
+        const words = (el.getAttribute('data-words') || '').split(',').map(w => w.trim()).filter(Boolean);
+        let wordIndex = 0, charIndex = 0, isDeleting = false;
+
+        function type() {
+            const currentWord = words[wordIndex];
+            if (!currentWord) return;
+            if (isDeleting) {
+                el.textContent = currentWord.substring(0, charIndex--);
+                if (charIndex < 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                    setTimeout(type, 500);
+                } else {
+                    setTimeout(type, 50);
+                }
+            } else {
+                el.textContent = currentWord.substring(0, charIndex++);
+                if (charIndex > currentWord.length) {
+                    isDeleting = true;
+                    setTimeout(type, 1200);
+                } else {
+                    setTimeout(type, 100);
+                }
+            }
+        }
+        type();
+    });
+    </script>
 </body>
 
 </html>
