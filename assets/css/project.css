@@ -954,6 +954,7 @@ SVG ANIMATIONS PROJECT PAGE
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
+  border-radius: 10px;
 }
 .project-card-btn + .project-card-btn {
   margin-left: 0.4em;
