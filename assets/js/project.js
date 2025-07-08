@@ -11,8 +11,28 @@ const projects = [
     description: "AI-powered attendance tracker using geo-location technology. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
     articleLink: "https://medium.com/@sarathi20/revolutionizing-attendance-tracking-with-geo-location-technology-c0d038b10f98",
     Previewlink: "https://glbat.vercel.app/",
-    Githublink: "#",
-    tags: ["React", "Geo-Location", "Web App"],
+    Githublink: "https://github.com/Sarathi7777/Geolocation-Attendance-Tracker.git",
+    tags: ["Next.js", "Tailwind CSS", "MongoDB"],
+    status: ""
+  },
+  {
+    title: "Nebula GenAI",
+    cardImage: "assets/images/project-page/nebula.png",
+    description: "Nebula GenAI is a platform for creating and sharing AI models. It allows you to create, train, and deploy your own AI models. ",
+    tagimg: "#",
+    Previewlink: "https://nebula-genai.vercel.app/",
+    Githublink: "https://github.com/Sarathi7777/Nebula-GenAI.git",
+    tags: ["Python", "GenAI", "Hugging Face"],
+    status: "In Development"
+  },
+  {
+    title: "Sentiwise",
+    cardImage: "assets/images/project-page/senti.png",
+    description: "Sentiwise is a platform for creating and sharing AI models. It allows you to create, train, and deploy your own AI models. ",
+    tagimg: "#",
+    Previewlink: "https://sentiwise.vercel.app/",
+    Githublink: "https://github.com/Sarathi7777/Sentiwise.git",
+    tags: ["Machine Learning", "Sentiment Analysis", "Web App"],
     status: ""
   },
   {
@@ -42,7 +62,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
-    tags: ["Machine Learning", "Deep Learning"],
+    tags: ["ML", "Speech Language Processing"],
     status: ""
   },
   {
@@ -52,7 +72,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Vehicle-Routing_Optimization_Problem.git",
-    tags: ["Optimization", "Routing"],
+    tags: ["Python", "Machine Learning"],
     status: ""
   },
   {
@@ -62,7 +82,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Dimensionality-Reduction-Skeleton.git",
-    tags: ["Data Science", "Machine Learning"],
+    tags: ["Python", "Machine Learning"],
     status: ""
   },
   {
@@ -82,7 +102,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "https://milk-quality-predictor.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Milk-Quality-Prediction-ML-Model.git",
-    tags: ["Machine Learning", "Prediction"],
+    tags: ["Machine Learning", "Streamlit", "Python"],
     status: ""
   },
   {
@@ -92,7 +112,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "https://diabetes-predic.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
-    tags: ["Machine Learning", "Prediction"],
+    tags: ["Machine Learning", "Streamlit"],
     status: ""
   },
   {
@@ -102,7 +122,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Face-Recognition.git",
-    tags: ["Computer Vision", "ML"],
+    tags: ["Python", "Computer Vision", "MySQL"],
     status: ""
   },
   {
@@ -122,17 +142,9 @@ const projects = [
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/AI-Mock-Interviewer.git",
-    tags: ["JavaScript", "Web App"],
+    tags: ["Next.js", "Tailwind CSS", "MongoDB"],
     status: "In Development"
   },
-  // {
-  //   title: "Layman-Friendly MRI Reports Generator",
-  //   cardImage: "assets/images/project-page/laymanreport.jpg",
-  //   description: "#",
-  //   tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-  //   Previewlink: "#",
-  //   Githublink: "#",
-  // },
   {
     title: "Crowdfunding Platform",
     cardImage: "assets/images/project-page/CFP.jpg",
@@ -140,7 +152,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Crowdfunding_Platform.git",
-    tags: ["Web App", "Crowdfunding"],
+    tags: ["Python", "Django", "HTML", "CSS"],
     status: ""
   },
   {
@@ -150,7 +162,7 @@ const projects = [
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Event_Management.git",
-    tags: ["Web App", "Event Management"],
+    tags: ["React.js", "Django", "HTML", "CSS"],
     status: ""
   },
   // {
