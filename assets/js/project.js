@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Geo-Location Based Attendance Tracker",
     cardImage: "assets/images/project-page/glbat.png",
-    description: "AI-powered attendance tracker using geo-location technology. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "AI-powered attendance system leveraging geo-location for real-time tracking, secure payments, and a seamless user experience. ",
     articleLink: "https://medium.com/@sarathi20/revolutionizing-attendance-tracking-with-geo-location-technology-c0d038b10f98",
     Previewlink: "https://glbat.vercel.app/",
     Githublink: "https://github.com/Sarathi7777/Geolocation-Attendance-Tracker.git",
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Nebula GenAI",
     cardImage: "assets/images/project-page/nebula.png",
-    description: "Nebula GenAI is a platform for creating and sharing AI models. It allows you to create, train, and deploy your own AI models. ",
+    description: "A collaborative platform to create, train, and deploy custom AI models, empowering users to innovate with GenAI and Hugging Face integration.",
     tagimg: "#",
     Previewlink: "https://nebula-genai.vercel.app/",
     Githublink: "https://github.com/Sarathi7777/Nebula-GenAI.git",
@@ -26,9 +26,19 @@ const projects = [
     status: "In Development"
   },
   {
+    title: "Faceless Youtube Shorts Automation",
+    cardImage: "assets/images/project-page/yt3.png",
+    description: "Automates the creation and publishing of YouTube Shorts using N8N workflows, streamlining content production for creators.",
+    articleLink: "#",
+    Previewlink: "#",
+    Githublink: "#",
+    tags: ["N8N", "OpenAI", "Hugging Face"],
+    status: "In Development"
+  },
+  {
     title: "Sentiwise",
     cardImage: "assets/images/project-page/senti.png",
-    description: "Sentiwise is a platform for creating and sharing AI models. It allows you to create, train, and deploy your own AI models. ",
+    description: "A web platform for building, training, and sharing sentiment analysis models, enabling users to extract insights from text data. ",
     tagimg: "#",
     Previewlink: "https://sentiwise.vercel.app/",
     Githublink: "https://github.com/Sarathi7777/Sentiwise.git",
@@ -38,7 +48,7 @@ const projects = [
   {
     title: "MERN Stack Travel Story Application",
     cardImage: "assets/images/project-page/travel-app.png",
-    description: "A travel story sharing platform built with the MERN stack. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "A social platform for sharing travel stories, built with the MERN stack, featuring real-time updates and a user-friendly interface. ",
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Travel-Story-App.git",
@@ -48,7 +58,7 @@ const projects = [
   {
     title: "Formula 1 Analysis Season 2023",
     cardImage: "assets/images/project-page/F1-23.png",
-    description: "Formula 1 Analysis Season 2023 built using Streamlit. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "Interactive Streamlit dashboard analyzing the 2023 Formula 1 season, offering real-time stats and visual insights for F1 fans. ",
     articleLink: "#",
     Previewlink: "https://f1-analysis.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Formula-1-Analysis-Season-2023.git",
@@ -58,7 +68,7 @@ const projects = [
   {
     title: "Retrival and Generative Models",
     cardImage: "assets/images/project-page/RGM.png",
-    description: "Retrival and Generative Models built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "A Python-based toolkit for experimenting with retrieval and generative language models, supporting speech and language processing tasks. ",
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
@@ -68,7 +78,7 @@ const projects = [
   {
     title: "Vehicle Routing Optimization",
     cardImage: "assets/images/project-page/VRO.jpg",
-    description:"Vehicle Routing Optimization built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description:"Solves complex vehicle routing problems using machine learning, optimizing delivery routes for efficiency and cost savings. ",
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Vehicle-Routing_Optimization_Problem.git",
@@ -78,7 +88,7 @@ const projects = [
   {
     title: "Dimensionality Reduction Skeleton",
     cardImage: "assets/images/project-page/DRS.jpg",
-    description: "Dimensionality Reduction Skeleton built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "A Python framework for applying and visualizing dimensionality reduction techniques on high-dimensional datasets. ",
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Dimensionality-Reduction-Skeleton.git",
@@ -88,7 +98,7 @@ const projects = [
   {
     title: "Nerual Language Processing model",
     cardImage: "assets/images/project-page/NLP.jpg",
-    description: "Nerual Language Processing model built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "Deep learning model for advanced natural language processing tasks, including text classification and language understanding. ",
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Nerual_Language_Processing_model.git",
@@ -98,7 +108,7 @@ const projects = [
   {
     title: "Milk Quality ML Prediction",
     cardImage: "assets/images/project-page/milk.png",
-    description: "Milk Quality Prediction ML Model built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "Streamlit app that predicts milk quality using machine learning, providing instant results and actionable insights for producers. ",
     articleLink: "#",
     Previewlink: "https://milk-quality-predictor.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Milk-Quality-Prediction-ML-Model.git",
@@ -108,7 +118,7 @@ const projects = [
   {
     title: "Diabetes Prediction ML Model",
     cardImage: "assets/images/project-page/diabetes.png",
-    description: "Diabetes Prediction ML Model built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "A user-friendly Streamlit tool for predicting diabetes risk based on health data, leveraging machine learning for early detection. ",
     articleLink: "#",
     Previewlink: "https://diabetes-predic.streamlit.app/",
     Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
@@ -118,7 +128,7 @@ const projects = [
   {
     title: "Face Recognition",
     cardImage: "assets/images/project-page/facereco.jpg",
-    description: "Face Recognition built using Python. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "Python-based face recognition system integrating computer vision and MySQL for secure, real-time identification. ",
     articleLink: "#",
     Previewlink: "#",
     Githublink: "https://github.com/Sarathi7777/Face-Recognition.git",
@@ -128,7 +138,7 @@ const projects = [
   {
     title: "Formula One Teams Analysis-Tableau",
     cardImage: "assets/images/project-page/F1-teams.png",
-    description: "Formula One Teams Analysis built using Tableau. ",
+    description: "Tableau dashboard offering in-depth analysis of Formula One teams, visualizing performance metrics and trends. ",
     articleLink: "#",
     Previewlink: "#",
     Githublink: "#",
@@ -138,7 +148,7 @@ const projects = [
   {
     title: "AI-Mock Interviewer",
     cardImage: "assets/images/project-page/AI_mock.jpg",
-    description: "AI-powered mock interviewer built using JavaScript. Features include real-time updates, secure payment processing, and a user-friendly interface. ",
+    description: "AI-driven mock interview platform simulating real interview scenarios, providing instant feedback and preparation tips. ",
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/AI-Mock-Interviewer.git",
@@ -148,7 +158,7 @@ const projects = [
   {
     title: "Crowdfunding Platform",
     cardImage: "assets/images/project-page/CFP.jpg",
-    description: "A crowdfunding platform built with the MERN stack. Features include real-time updates, secure payment processing, and a user-friendly interface.",
+    description: "A secure and intuitive crowdfunding platform built with Django, enabling users to launch and support fundraising campaigns.",
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Crowdfunding_Platform.git",
@@ -158,7 +168,7 @@ const projects = [
   {
     title: "College Event Management",
     cardImage: "assets/images/project-page/event.png",
-    description: "A college event management system built with the MERN stack. Features include real-time updates, secure payment processing, and a user-friendly interface.",
+    description: "A comprehensive event management system for colleges, streamlining event planning, registration, and communication.",
     articleLink: "#",
     Previewlink: "",
     Githublink: "https://github.com/Sarathi7777/Event_Management.git",
