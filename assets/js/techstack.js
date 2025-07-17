@@ -15,6 +15,11 @@ const techStack = [
     langDesc: "<li>n8n is an open-source workflow automation platform that allows users to connect any app with an API and manipulate its data with little or no code.</li>",
   },
   {
+    langImage: "assets/images/techstack-page/HF.png",
+    langName: "Hugging Face",
+    langDesc: "<li>Hugging Face is a platform for building and sharing machine learning models.</li>",
+  },
+  {
     langImage: "assets/images/techstack-page/html.png",
     langName: "HyperText Markup Language",
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
