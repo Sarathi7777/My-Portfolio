@@ -65,46 +65,46 @@ const projects = [
     tags: ["Streamlit", "Data Analysis"],
     status: ""
   },
-  {
-    title: "Retrival and Generative Models",
-    cardImage: "assets/images/project-page/RGM.png",
-    description: "A Python-based toolkit for experimenting with retrieval and generative language models, supporting speech and language processing tasks. ",
-    articleLink: "#",
-    Previewlink: "",
-    Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
-    tags: ["ML", "Speech Language Processing"],
-    status: ""
-  },
-  {
-    title: "Vehicle Routing Optimization",
-    cardImage: "assets/images/project-page/VRO.jpg",
-    description:"Solves complex vehicle routing problems using machine learning, optimizing delivery routes for efficiency and cost savings. ",
-    articleLink: "#",
-    Previewlink: "#",
-    Githublink: "https://github.com/Sarathi7777/Vehicle-Routing_Optimization_Problem.git",
-    tags: ["Python", "Machine Learning"],
-    status: ""
-  },
-  {
-    title: "Dimensionality Reduction Skeleton",
-    cardImage: "assets/images/project-page/DRS.jpg",
-    description: "A Python framework for applying and visualizing dimensionality reduction techniques on high-dimensional datasets. ",
-    articleLink: "#",
-    Previewlink: "#",
-    Githublink: "https://github.com/Sarathi7777/Dimensionality-Reduction-Skeleton.git",
-    tags: ["Python", "Machine Learning"],
-    status: ""
-  },
-  {
-    title: "Nerual Language Processing model",
-    cardImage: "assets/images/project-page/NLP.jpg",
-    description: "Deep learning model for advanced natural language processing tasks, including text classification and language understanding. ",
-    articleLink: "#",
-    Previewlink: "#",
-    Githublink: "https://github.com/Sarathi7777/Nerual_Language_Processing_model.git",
-    tags: ["NLP", "Deep Learning"],
-    status: ""
-  },
+  // {
+  //   title: "Retrival and Generative Models",
+  //   cardImage: "assets/images/project-page/RGM.png",
+  //   description: "A Python-based toolkit for experimenting with retrieval and generative language models, supporting speech and language processing tasks. ",
+  //   articleLink: "#",
+  //   Previewlink: "",
+  //   Githublink: "https://github.com/Sarathi7777/Retrival-and-Generative-Models.git",
+  //   tags: ["ML", "Speech Language Processing"],
+  //   status: ""
+  // },
+  // {
+  //   title: "Vehicle Routing Optimization",
+  //   cardImage: "assets/images/project-page/VRO.jpg",
+  //   description:"Solves complex vehicle routing problems using machine learning, optimizing delivery routes for efficiency and cost savings. ",
+  //   articleLink: "#",
+  //   Previewlink: "#",
+  //   Githublink: "https://github.com/Sarathi7777/Vehicle-Routing_Optimization_Problem.git",
+  //   tags: ["Python", "Machine Learning"],
+  //   status: ""
+  // },
+  // {
+  //   title: "Dimensionality Reduction Skeleton",
+  //   cardImage: "assets/images/project-page/DRS.jpg",
+  //   description: "A Python framework for applying and visualizing dimensionality reduction techniques on high-dimensional datasets. ",
+  //   articleLink: "#",
+  //   Previewlink: "#",
+  //   Githublink: "https://github.com/Sarathi7777/Dimensionality-Reduction-Skeleton.git",
+  //   tags: ["Python", "Machine Learning"],
+  //   status: ""
+  // },
+  // {
+  //   title: "Nerual Language Processing model",
+  //   cardImage: "assets/images/project-page/NLP.jpg",
+  //   description: "Deep learning model for advanced natural language processing tasks, including text classification and language understanding. ",
+  //   articleLink: "#",
+  //   Previewlink: "#",
+  //   Githublink: "https://github.com/Sarathi7777/Nerual_Language_Processing_model.git",
+  //   tags: ["NLP", "Deep Learning"],
+  //   status: ""
+  // },
   {
     title: "Milk Quality ML Prediction",
     cardImage: "assets/images/project-page/milk.png",
@@ -116,15 +116,25 @@ const projects = [
     status: ""
   },
   {
-    title: "Diabetes Prediction ML Model",
-    cardImage: "assets/images/project-page/diabetes.png",
-    description: "A user-friendly Streamlit tool for predicting diabetes risk based on health data, leveraging machine learning for early detection. ",
+    title: "EV User Intelligence Recommendation Platform",
+    cardImage: "assets/images/project-page/EV.png",
+    description: "EV User Intelligence Recommendation Platform",
     articleLink: "#",
-    Previewlink: "https://diabetes-predic.streamlit.app/",
-    Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
-    tags: ["Machine Learning", "Streamlit"],
-    status: ""
+    Previewlink: "#",
+    Githublink: "https://github.com/Sarathi7777/EV-User-Intelligence-Recommendation-Platform.git",
+    tags: ["Snowflake", "Machine Learning", "AWS"],
+    status: "In Development"
   },
+  // {
+  //   title: "Diabetes Prediction ML Model",
+  //   cardImage: "assets/images/project-page/diabetes.png",
+  //   description: "A user-friendly Streamlit tool for predicting diabetes risk based on health data, leveraging machine learning for early detection. ",
+  //   articleLink: "#",
+  //   Previewlink: "https://diabetes-predic.streamlit.app/",
+  //   Githublink: "https://github.com/Sarathi7777/Diabetes-Prediction-ML-Model.git",
+  //   tags: ["Machine Learning", "Streamlit"],
+  //   status: ""
+  // },
   {
     title: "Face Recognition",
     cardImage: "assets/images/project-page/facereco.jpg",
